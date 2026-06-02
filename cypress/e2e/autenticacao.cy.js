@@ -1,4 +1,3 @@
-/// <reference types="cypress"/>
 
 
 describe('Testes de autenticação da api', () => {
@@ -21,7 +20,7 @@ describe('Testes de autenticação da api', () => {
         ]
 
         cenarios_autenticacao.forEach((cenario) => {
-            it(('Login mal sucedido com ' + cenario.msg), () => {
+            it(('Autenticação mal sucedida com ' + cenario.msg), () => {
                 cy.autenticacao(cenario.username, cenario.password).then((resultado_autenticacao) => {
                     expect(resultado_autenticacao.status).to.equal(cenario.status)
                     expect(resultado_autenticacao.body.reason).to.equal('Bad credentials')

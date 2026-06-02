@@ -1,10 +1,6 @@
-/// <reference types="cypress"/>
-
-const { gera_reserva } = require("../fixtures/gera_reserva")
-const { valida_corpo_reserva } = require("../support/helpers")
 
 
-describe ('Testes de busca de reserva', ()=>{
+describe('Testes de busca de reserva', ()=>{
 
     let token = ''
 

@@ -1,6 +1,4 @@
-/// <reference types="cypress"/>
 
-const { gera_reserva } = require("../fixtures/gera_reserva")
 
 describe('Testes de cadastro de reserva', () => {
 

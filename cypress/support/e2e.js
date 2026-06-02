@@ -15,3 +15,13 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+
+// 1. Importa a sua fábrica de dados (Data Factory)
+const { gera_reserva } = require('./factories/gera_reserva')
+
+// 2. Importa a sua função de validação (Helper)
+const { valida_corpo_reserva } = require('./helpers')
+
+// 3. Torna ambas as funções globais no projeto
+global.gera_reserva = gera_reserva
+global.valida_corpo_reserva = valida_corpo_reserva
