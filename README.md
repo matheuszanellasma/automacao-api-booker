@@ -18,34 +18,34 @@ Este repositório contém o projeto de automação de testes de API para a aplic
 
 Com foco em garantir o comportamento esperado da API, os cenários foram mapeados por Histórias de Usuário e estruturados da seguinte forma:
 
-### ◢ História - Autenticação
+### - Autenticação
 * **Caso de teste Autenticação 1** – Autenticação com sucesso com credenciais válidas
 * **Caso de teste Autenticação 2** – Validações de campos obrigatórios na autenticação
 
-### ◢ História – Buscar reserva
+###  – Buscar reserva
 * **Caso de teste Busca 1** – Busca de reserva com sucesso
 * **Caso de teste Busca 2** – Busca de reserva inexistente
 * **Caso de teste Busca 3** – Busca de reserva passando ID com caracteres especiais
 * **Caso de teste Busca 4** – Busca de reserva passando ID com número inválido (negativo)
 
-### ◢ História – Cadastrar reserva
+###  – Cadastrar reserva
 * **Caso de teste Cadastro 1** – Cadastrar reserva com sucesso
 * **Caso de teste Cadastro 2** – Cadastrar reserva passando payload vazio
 * **Caso de teste Cadastro 3** – Validações de campos e tipos de dados no cadastro
 
-### ◢ História - Atualizar reserva completa
+### - Atualizar reserva completa
 * **Caso de teste Atualização Completa 1** – Atualizar reserva completa com sucesso
 * **Caso de teste Atualização Completa 2** – Tentar atualizar reserva inexistente
 * **Caso de teste Atualização Completa 3** – Tentar atualizar reserva com payload vazio
 * **Caso de teste Atualização Completa 4** – Validar rejeição de atualização sem token válido
 
-### ◢ História - Atualizar reserva parcial
+### - Atualizar reserva parcial
 * **Caso de teste Atualização Parcial 1** – Atualizar parcialmente dados da reserva com sucesso
 * **Caso de teste Atualização Parcial 2** – Tentar atualizar parcialmente reserva com payload vazio
 * **Caso de teste Atualização Parcial 3** – Tentar atualizar parcialmente reserva inexistente
 * **Caso de teste Atualização Parcial 4** – Validar rejeição de atualização parcial sem token válido
 
-### ◢ História – Deletar reserva
+###  – Deletar reserva
 * **Caso de teste Exclusão 1** – Deletar reserva com sucesso
 * **Caso de teste Exclusão 2** – Tentar deletar reserva já excluída
 * **Caso de teste Exclusão 3** – Tentar deletar reserva inexistente
@@ -57,15 +57,15 @@ Com foco em garantir o comportamento esperado da API, os cenários foram mapeado
 
 Durante a execução da automação, foram identificadas as seguintes inconformidades entre o comportamento real da API e as boas práticas de desenvolvimento/regras de negócio:
 
-**[BUG] [API-Auth]** Autenticação retorna Status `200 OK` em falhas de autenticação.
-**[BUG] [API-Booking]** Busca retorna Status `404 Not Found` para IDs malformados.
-**[BUG] [API-Booking]** Cadastro retorna Status `500 Internal Server Error` para payloads incompletos ou vazios.
-**[BUG] [API-Booking]** Cadastro retorna Status `500 Internal Server Error` ao enviar campo *firstname* preenchido com números.
-**[BUG] [API-Booking]** Cadastro de reserva com sucesso recebendo dados inválidos ou em branco.
-**[BUG] [API-Booking]** Atualização parcial retorna Status `405 Method Not Allowed` para ID inexistente.
-**[BUG] [API-Booking]** Atualização completa retorna Status `405 Method Not Allowed` para ID inexistente.
-**[BUG] [API-Booking]** Exclusão retorna Status `405 Method Not Allowed` para ID inexistente.
-**[BUG] [API-Booking]** Exclusão retorna Status `201 Created` em exclusões bem-sucedidas.
+* **[BUG] [API-Auth]** Autenticação retorna Status `200 OK` em falhas de autenticação.
+* **[BUG] [API-Booking]** Busca retorna Status `404 Not Found` para IDs malformados.
+* **[BUG] [API-Booking]** Cadastro retorna Status `500 Internal Server Error` para payloads incompletos ou vazios.
+* **[BUG] [API-Booking]** Cadastro retorna Status `500 Internal Server Error` ao enviar campo *firstname* preenchido com números.
+* **[BUG] [API-Booking]** Cadastro de reserva com sucesso recebendo dados inválidos ou em branco.
+* **[BUG] [API-Booking]** Atualização parcial retorna Status `405 Method Not Allowed` para ID inexistente.
+* **[BUG] [API-Booking]** Atualização completa retorna Status `405 Method Not Allowed` para ID inexistente.
+* **[BUG] [API-Booking]** Exclusão retorna Status `405 Method Not Allowed` para ID inexistente.
+* **[BUG] [API-Booking]** Exclusão retorna Status `201 Created` em exclusões bem-sucedidas.
 
 ---
 
