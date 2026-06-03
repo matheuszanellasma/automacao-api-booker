@@ -1,5 +1,3 @@
-/// <reference types="cypress"/>
-
 
 
 describe('Testes de deletar reservas', () => {
