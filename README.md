@@ -5,12 +5,11 @@ Este repositório contém o projeto de automação de testes de API para a aplic
 
 🔗 **Site da API:** [Restful-Booker API Doc](https://restful-booker.herokuapp.com/apidoc/index.html)
 
-💡 **O Plano de Testes Completo (com descrição de casos de teste e report de bugs) pode ser acessado aqui:** 
-👉 [Plano de Testes Detalhado - Restful-Booker](docs/plano-de-testes-e-bugs-api.docx)
+💡 **O Plano de Testes Completo (com descrição de casos de teste e report de bugs) pode ser acessado aqui:** [Plano de Testes Detalhado - Restful-Booker](docs/plano-de-testes-e-bugs-api.docx)
 
 Este projeto utiliza o **Cypress Cloud** para monitoramento e gravação das execuções dos testes de automação de forma pública.
 
-* 📊 **Painel de Execuções (Dashboard):** [Clique aqui para visualizar o Cypress Cloud](https://cloud.cypress.io/projects/4ngizh/runs?branches=%5B%5D&committers=%5B%5D&flaky=%5B%5D&page=1&status=%5B%5D&tags=%5B%5D&tagsMatch=ANY&timeRange=%7B%22startDate%22%3A%222025-06-17%22%2C%22endDate%22%3A%222026-06-17%22%2C%22id%22%3A%22LAST_12_MONTHS%22%7D)
+📊 **Painel de Execuções (Dashboard):** [Clique aqui para visualizar o Cypress Cloud](https://cloud.cypress.io/projects/4ngizh/runs?branches=%5B%5D&committers=%5B%5D&flaky=%5B%5D&page=1&status=%5B%5D&tags=%5B%5D&tagsMatch=ANY&timeRange=%7B%22startDate%22%3A%222025-06-17%22%2C%22endDate%22%3A%222026-06-17%22%2C%22id%22%3A%22LAST_12_MONTHS%22%7D)
 
 ---
 
