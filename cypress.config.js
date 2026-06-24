@@ -7,7 +7,9 @@ module.exports = defineConfig({
   e2e: {
     baseUrl: 'https://restful-booker.herokuapp.com',
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      // REGISTRA O PLUGIN DE TAGS PARA CONSEGUIR FILTRAR NO GITHUB ACTIONS:
+      require('@cypress/grep/src/plugin')(config);
+      return config;
     },
   },
 });
