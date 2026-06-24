@@ -75,6 +75,19 @@ Durante a execução da automação, foram identificadas as seguintes inconformi
 
 ---
 
+## 🛠️ Como Executar os Testes Localmente
+
+### Pré-requisitos: Node.js (versão 18 ou superior recomendada)
+
+### Passo a Passo (Configuração e Execução)
+```bash
+git clone https://github.com/matheuszanellasma/automacao-api-cypress.git
+cd automacao-api-cypress
+npm install
+npx cypress open
+```
+
+---
 ## 👤 Autor
 
 * **Matheus Koehler Zanella** - Quality Assurance Engineer
