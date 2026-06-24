@@ -17,7 +17,7 @@ describe('Testes de atualizar parcialmente reservas', () => {
 
     it('Atualizar parcialmente reserva com sucesso', { tags: 'smoke' }, () => {
 
-        const reserva = gera_reserva()
+        const reserva = gera_reserva() 
 
         cy.cadastrar_reserva(reserva).then((resultado_cadastro) => {
             const id_cadastro = resultado_cadastro.body.bookingid
