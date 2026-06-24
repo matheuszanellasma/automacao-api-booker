@@ -9,7 +9,7 @@ describe('Testes de autenticação da api', () => {
         })
     })
 
-
+ 
     describe('Validações de campos obrigatórios na autenticação', () => {
 
         const cenarios_autenticacao = [
