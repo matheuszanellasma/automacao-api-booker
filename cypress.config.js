@@ -7,8 +7,9 @@ module.exports = defineConfig({
   e2e: {
     baseUrl: 'https://restful-booker.herokuapp.com',
     setupNodeEvents(on, config) {
-      // CORREÇÃO: Removido o '/src/plugin' do caminho
-      require('@cypress/grep/src/plugin')(config);
+      // CORREÇÃO OFICIAL DO PLUGIN:
+      const { plugin: cypressGrepPlugin } = require('@cypress/grep/plugin');
+      cypressGrepPlugin(config);
       return config;
     },
   },
