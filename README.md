@@ -17,6 +17,7 @@ Este projeto utiliza o **Cypress Cloud** para monitoramento e gravação das exe
 
 * **Framework de Testes:** Cypress / Postman
 * **Linguagem:** JavaScript / Node.js
+* **Integração com IA:** Utilização do MCP do Playwright 
 
 ---
 
