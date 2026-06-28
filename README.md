@@ -26,34 +26,34 @@ Este projeto utiliza o **Cypress Cloud** para monitoramento e gravação das exe
 Com foco em garantir o comportamento esperado da API, os cenários foram mapeados por Histórias de Usuário e estruturados da seguinte forma:
 
 ### - Autenticação
-* **Caso de teste Autenticação 1** – Autenticação com sucesso com credenciais válidas
+* **Caso de teste Autenticação 1** – Autenticação com sucesso com credenciais válidas (smoke)
 * **Caso de teste Autenticação 2** – Validações de campos obrigatórios na autenticação
 
 ###  – Buscar reserva
-* **Caso de teste Busca 1** – Busca de reserva com sucesso
+* **Caso de teste Busca 1** – Busca de reserva com sucesso (smoke)
 * **Caso de teste Busca 2** – Busca de reserva inexistente
 * **Caso de teste Busca 3** – Busca de reserva passando ID com caracteres especiais
 * **Caso de teste Busca 4** – Busca de reserva passando ID com número inválido (negativo)
 
 ###  – Cadastrar reserva
-* **Caso de teste Cadastro 1** – Cadastrar reserva com sucesso
+* **Caso de teste Cadastro 1** – Cadastrar reserva com sucesso (smoke)
 * **Caso de teste Cadastro 2** – Cadastrar reserva passando payload vazio
 * **Caso de teste Cadastro 3** – Validações de campos e tipos de dados no cadastro
 
 ### - Atualizar reserva completa
-* **Caso de teste Atualização Completa 1** – Atualizar reserva completa com sucesso
+* **Caso de teste Atualização Completa 1** – Atualizar reserva completa com sucesso (smoke)
 * **Caso de teste Atualização Completa 2** – Tentar atualizar reserva inexistente
 * **Caso de teste Atualização Completa 3** – Tentar atualizar reserva com payload vazio
 * **Caso de teste Atualização Completa 4** – Validar rejeição de atualização sem token válido
 
 ### - Atualizar reserva parcial
-* **Caso de teste Atualização Parcial 1** – Atualizar parcialmente dados da reserva com sucesso
+* **Caso de teste Atualização Parcial 1** – Atualizar parcialmente dados da reserva com sucesso (smoke)
 * **Caso de teste Atualização Parcial 2** – Tentar atualizar parcialmente reserva com payload vazio
 * **Caso de teste Atualização Parcial 3** – Tentar atualizar parcialmente reserva inexistente
 * **Caso de teste Atualização Parcial 4** – Validar rejeição de atualização parcial sem token válido
 
 ###  – Deletar reserva
-* **Caso de teste Exclusão 1** – Deletar reserva com sucesso
+* **Caso de teste Exclusão 1** – Deletar reserva com sucesso (smoke)
 * **Caso de teste Exclusão 2** – Tentar deletar reserva já excluída
 * **Caso de teste Exclusão 3** – Tentar deletar reserva inexistente
 * **Caso de teste Exclusão 4** – Validar rejeição de exclusão sem token válido
