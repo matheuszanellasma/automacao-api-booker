@@ -15,6 +15,9 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import { register } from '@cypress/grep'
+
+register()
 
 const { gera_reserva } = require('./factories/gera_reserva')
 const { valida_corpo_reserva } = require('./helpers')
