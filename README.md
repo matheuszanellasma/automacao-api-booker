@@ -19,7 +19,8 @@ Este projeto utiliza o **Cypress Cloud** para monitoramento e gravação das exe
 * **Framework de Testes:** Cypress / Postman
 * **Linguagem:** JavaScript / Node.js
 * **Integração com IA:** Utilização do MCP do Playwright
-* ** Faker.js** geração dinâmica de dados de teste aumentando a cobertura de variações
+* **Faker.js:** geração dinâmica de dados de teste aumentando a cobertura de variações
+* **Mochawesome:**  geração de relatórios HTML das execuções de teste
 
 ---
 
