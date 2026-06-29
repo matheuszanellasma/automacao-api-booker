@@ -1,4 +1,4 @@
-![CI](https://github.com/matheuszanellasma/automacao-api-cypress/actions/workflows/push.yml/badge.svg)
+[![CI](https://github.com/matheuszanellasma/automacao-api-cypress/actions/workflows/push.yml/badge.svg)](https://github.com/matheuszanellasma/automacao-api-cypress/actions)
 
 # 🧪 Projeto de Automação de Testes de API - Restful-Booker
 
